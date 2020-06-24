@@ -171,7 +171,7 @@ MonsterNames:
 	db "KYUREM@@@@"
 	db "RESHIRAM@@"
 	db "MISSINGNO."
-	db "KLANG@@@@@"
+	db "KLINK@@@@@"
 	db "MISSINGNO."
 	db "MISSINGNO."
 	db "TEPIG@@@@@"
