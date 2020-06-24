@@ -4,7 +4,7 @@ A Pokémon Red mod that replaces Kanto Pokémon with Unova ones, updating certai
 
 This project is forked from the dissasembled [**Pokémon Red and Blue**][pokered] by pret.
 
-## Other disassemblies.
+## Other disassemblies by pret:
 
 * Disassembly of [**Pokémon Yellow**][pokeyellow]
 * Disassembly of [**Pokémon Gold**][pokegold]
@@ -26,5 +26,3 @@ This project is forked from the dissasembled [**Pokémon Red and Blue**][pokered
 [pokeruby]: https://github.com/pret/pokeruby
 [pokefirered]: https://github.com/pret/pokefirered
 [pokeemerald]: https://github.com/pret/pokeemerald
-[Discord]: https://discord.gg/d5dubZ3
-[irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
