@@ -3,4 +3,6 @@ HighCriticalMoves:
 	db RAZOR_LEAF
 	db CRABHAMMER
 	db SLASH
+	db PSYCHO_CUT
+	db STONE_EDGE
 	db $FF

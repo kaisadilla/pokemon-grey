@@ -12,8 +12,8 @@ INCBIN "pic/bmon/pidgey.pic",0,1 ; 55, sprite dimensions
 dw PidgeyPicFront
 dw PidgeyPicBack
 ; attacks known at lvl 0
-db GUST
-db 0
+db ICY_WIND
+db OUTRAGE
 db 0
 db 0
 db 3 ; growth rate

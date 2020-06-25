@@ -93,5 +93,5 @@ const_value = 0
 	const DISABLE_EFFECT             ; $56
 
 ; fixed damage constants
-SONICBOOM_DAMAGE   EQU 20
+SONICBOOM_DAMAGE   EQU 60
 DRAGON_RAGE_DAMAGE EQU 40

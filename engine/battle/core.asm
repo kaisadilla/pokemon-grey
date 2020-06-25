@@ -4606,7 +4606,7 @@ CriticalHitTest:
 	ld b, $ff                    ; cap at 255/256
 	jr .noFocusEnergyUsed
 .focusEnergyUsed
-	srl b
+	sla b						 ; [kaisa] replaced 'srl' (right shift) with 'sla' (left shift) to fix 'Focus Energy'.
 .noFocusEnergyUsed
 	ld hl, HighCriticalMoves     ; table of high critical hit moves
 .Loop
@@ -5418,6 +5418,7 @@ MoveHitTest:
 ; note that this means that even the highest accuracy is still just a 255/256 chance, not 100%
 	call BattleRandom
 	cp b
+	dec b ; [Kaisa] decreate b by one, so the maximum number is 255 instead of 256 (what'll happen if b was 0?)
 	jr nc, .moveMissed
 	ret
 .moveMissed

@@ -1,9 +1,9 @@
 db DEX_CHARMANDER ; pokedex id
-db 39 ; base hp
-db 52 ; base attack
-db 43 ; base defense
-db 65 ; base speed
-db 50 ; base special
+db 65 ; base hp
+db 63 ; base attack
+db 45 ; base defense
+db 45 ; base speed
+db 45 ; base special
 db FIRE ; species type 1
 db FIRE ; species type 2
 db 45 ; catch rate
@@ -12,17 +12,17 @@ INCBIN "pic/bmon/charmander.pic",0,1 ; 55, sprite dimensions
 dw CharmanderPicFront
 dw CharmanderPicBack
 ; attacks known at lvl 0
-db SCRATCH
-db GROWL
+db TACKLE
+db TAIL_WHIP
 db 0
 db 0
 db 3 ; growth rate
 ; learnset
-	tmlearn 1,3,5,6,8
+	tmlearn 1,4,5,6,8
 	tmlearn 9,10
-	tmlearn 17,18,19,20,23
-	tmlearn 28,31,32
-	tmlearn 33,34,38,39,40
-	tmlearn 44
-	tmlearn 50,51,54
+	tmlearn 17,18,19,20,22
+	tmlearn 27,28
+	tmlearn 34,38,40
+	tmlearn 44,47,48
+	tmlearn 50,51,54,55
 db 0 ; padding

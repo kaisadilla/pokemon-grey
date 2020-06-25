@@ -1,9 +1,9 @@
 db DEX_SQUIRTLE ; pokedex id
-db 44 ; base hp
-db 48 ; base attack
-db 65 ; base defense
-db 43 ; base speed
-db 50 ; base special
+db 55 ; base hp
+db 55 ; base attack
+db 45 ; base defense
+db 45 ; base speed
+db 60 ; base special
 db WATER ; species type 1
 db WATER ; species type 2
 db 45 ; catch rate
@@ -18,11 +18,11 @@ db 0
 db 0
 db 3 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
+	tmlearn 1, 5, 6, 7, 8
 	tmlearn 9,10,11,12,13,14
-	tmlearn 17,18,19,20
-	tmlearn 28,31,32
-	tmlearn 33,34,40
-	tmlearn 44
-	tmlearn 50,53,54
+	tmlearn 17,19,20
+	tmlearn 25,26,28,30,32
+	tmlearn 33,34,35,36,40
+	tmlearn 44,45,47,48
+	tmlearn 50,51,53,54
 db 0 ; padding

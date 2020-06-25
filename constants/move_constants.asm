@@ -164,10 +164,47 @@ const_value = 1
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
+	const STRUGGLE     ; a5
+	const CRUNCH       ; ??
+	const BRUTAL_SWING ; ??
+	const DARK_PULSE   ; ??
+	const PURSUIT      ; ??
+	const FEINT_ATTACK ; ??
+	const BULLET_PUNCH ; ??
+	const GEAR_GRIND   ; ??
+	const IRON_HEAD    ; ??
+	const IRON_TAIL    ; ??
+	const MAGNET_BOMB  ; ??
+	const DAZZ_GLEAM   ; ??
+	const DRAININGKISS ; ??
+	const FAIRY_WIND   ; ??
+	const MOONBLAST    ; ??
+	const PLAY_ROUGH   ; ??
+    const BUG_BITE     ; ?? <-- second row
+	const INFESTATION  ; ??
+	const MEGA_HORN    ; ??
+	const SIGNAL_BEAM  ; ??
+	const X_SCISSOR    ; ??
+	const BLAST_BURN   ; ??
+	const SHOCK_WAVE   ; ??
+	const ICICLE_SPEAR ; ??
+	const ICY_WIND     ; ??
+	const SLUDGE_BOMB  ; ??
+	const MUD_SLAP     ; ??
+	const PSYCHO_CUT   ; ??
+	const ROCK_BLAST   ; ??
+	const ROCK_TOMB    ; ??
+	const HEAD_SMASH   ; ??
+	const STONE_EDGE   ; ??
+	const SHADOW_BALL  ; ??
+	const SHADOW_PUNCH ; ??
+	const ASTONISH     ; ??
+	const DRAGON_CLAW  ; ??
+	const DRAGONBREATH ; ??
+	const OUTRAGE      ; ??
 
-NUM_ATTACKS EQU const_value + -1
-
-	const STRUGGLE
+NUM_ATTACKS EQU const_value
+const_value = STRUGGLE + 1
 
 	; Moves do double duty as animation identifiers.
 
@@ -208,3 +245,4 @@ NUM_ATTACKS EQU const_value + -1
 	const HIDEPIC_ANIM ; monster disappears
 	const ROCK_ANIM ; throw rock
 	const BAIT_ANIM ; throw bait
+	
